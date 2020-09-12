@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    direction: rtl;
+    font-size: 1vw;
+    background: #E5E5E5;
+}
+
+body{
+    background-image: url("./images/mainback.jpg");
+    background-size: cover;
+    background-position: bottom center;;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*navigation bar settings*/
+.navbar{
+    background-color: #FFFFFF;
+    width: 75em;
+    border-radius: 0px 0px 0px 50px;
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: right;
+    color: #000000;
+    padding: 1em;
+}
+
+.navgrid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    height: 3em;
+}
+
+.navgrid > div > a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.navgrid > div > a:hover{
+    color: #00A2DC;
+}
+
+/*login screen settings*/
+.login{
+    background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0.7));
+    width: 25vw;
+    height: 55vh;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    margin: auto;
+    border-radius: 0px 0px 0px 50px;
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: right;
+    color: #00A2DC;
+    padding: 1em;
+    align-self: center;
+    padding-top: 10vh;
+    padding-right: 5vw;
+}
+
+#email, #password{
+    background-color: transparent;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 15vw;
+    height: 5vh;
+}
+
+.submit{
+    height: 2rem;
+    width: 9rem;
+    background: #00A2DC;
+    border-radius: 0.5em;
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.keeplogin{
+    color: #000000;
+    font-size: 0.7em;
+}
+
+.forgetpass{
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.6em;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+/*extra login options settings*/
+.newoption{
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.6em;
+    text-align: right;
+    color: #000000;
+}
+
+.login > label{
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5em;
+    color:#000000;
+}
+
+.loginbtn{
+    height: 2rem;
+    width: 9rem;
+    background: #00A2DC;
+    border-radius: 0.5em;
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
