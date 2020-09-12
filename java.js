@@ -1,8 +1,6 @@
 $(document).ready(function(){
     $(".submit").one("click", function() {
-        $(".login").css('padding-top', '1vh');
-        $(".submit").css('background', '#89c2d6');
-        $(".login").append("<br>");
+        $(".submit").css('background', '#aac8d3');
         $(".login").append("<div class='newoption'>באיזה סוג  משתמש הינך רוצה להיכנס</div>");
         $(".login").append("<input type='radio' class='logtype' name='logtype' value='מנהלן'>");
         $(".login").append("<label for='מנהלן'>מנהלן</label><br>");
